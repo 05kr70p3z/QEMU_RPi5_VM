@@ -17,7 +17,7 @@ This repository intentionally **does not** include the VM disk image file `disk.
 
 This project uses a QCOW2 disk image for the virtual machine. The disk image is **not** stored in this repository due to GitHub’s file size limits, so you must create it locally before running the VM.
 
-1. Install QEMU (if you haven’t already) using your distro’s package manager or the official docs.
+1. Install QEMU (if you haven’t already) using your distro’s package manager or the [official docs](https://www.qemu.org/download/).
 2. From the project directory, create an empty 32 GB QCOW2 disk image:
 
    ```bash
